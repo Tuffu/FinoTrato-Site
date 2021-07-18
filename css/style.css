@@ -34,7 +34,7 @@ header{
     float: right;
 }
 
-.fa{
+.icons-header .fa{
     color: white;
     font-size: 25px;
     padding: 20px 10px 15px 10px;
@@ -111,10 +111,7 @@ li.dropdown {
     margin: 10px 0 0 0;
 }
 
-.copyright-content{
-    background-color: yellow;
-    padding: 10px 0 10px 0;
-    color: black;
+.information-footer{
     text-align: center;
 }
 
@@ -122,3 +119,36 @@ li.dropdown {
     position: relative;
     overflow: hidden;
   }
+
+/* .body-footer{
+    display: inline-block;
+} */
+
+  .icons-footer{
+      float: left;
+      padding: 30px 0 0 0;
+      display: inline-flex;
+  }
+
+  .icons-footer .fa{
+      color: white;
+      font-size: 25px;
+  }
+
+  .icons-footer-social .fa{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 15px;
+    padding: 25px 0 0 0;
+  }
+
+.copyright-content{
+    background-color: yellow;
+    padding: 10px 0 10px 0;
+    color: black;
+    text-align: center;
+}
+
+.maps{
+    
+}
