@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: sans-serif;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
     margin     : 0;
     padding    : 0;
     background : black;
@@ -108,10 +108,30 @@ li.dropdown {
     display: block;
 }
 
+/* EMPRESA */
+
+.empresa{
+    background: rgba(218, 211, 211, 0.267);
+}
+
+.title-empresa{
+    color: white;
+}
+
+.title-empresa h1{
+    text-align: center;
+}
+
+.empresa-content{
+    font-size: 15px;
+    padding: 10px 50px;
+    letter-spacing: 0.5;
+}
+
 /* SERVIÇOS */
 
 .service {
-    background-color: rgba(133, 133, 132, 0.445);
+    background-color: rgba(0, 0, 0, 0.445);
     padding         : 10px 0 20px 0;
 }
 
@@ -134,7 +154,7 @@ li.dropdown {
 }
 
 .img-service {
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.473)
+    box-shadow: 10px 10px rgba(165, 159, 159, 0.192)
 }
 
 .container {
@@ -149,7 +169,7 @@ li.dropdown {
     left            : 0;
     right           : 0;
     height          : 100%;
-    width           : 112%;
+    width           : 186%;
     opacity         : 0;
     transition      : .5s ease;
     background-color: yellow;
