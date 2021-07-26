@@ -1,0 +1,19 @@
+#section-article{
+    color: white;
+    padding-top: 160px;
+}
+
+h1{
+    text-align: center;
+}
+
+.img-lavagemsimples{
+    width: 40%;
+    margin-left: 80px;
+    float: left;
+}
+
+.texto-lavagem{
+    text-align: justify;
+    margin-left: 590px
+}

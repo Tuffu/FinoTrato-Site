@@ -7,46 +7,48 @@
     <meta name="description" content="Estética automotiva">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name"keywords" content="estetica, carro, automotivo">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lavagem-detalhada.css">
 
 </head>
 
 <body>
     <main>
         <header>
-            <!-- Menu de Navegação e o Logo -->
-            <div class="mobile-container">
-                <div class="max-width clearfix">
-                    <div class="top-nav">
-                        <a href="index.html" class="active"><img class="img-logo" src="img/FinoTrato.jpg" alt="">
-                        </a>
-                        <div class="icons-header">
-                            <!-- Ícones header -->
-                            <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                            <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <div id="top-header">
+                <!-- Menu de Navegação e o Logo -->
+                <div class="mobile-container">
+                    <div class="max-width clearfix">
+                        <div class="top-nav">
+                            <a href="index.html" class="active"><img class="img-logo" src="img/FinoTrato.jpg" alt="">
+                            </a>
+                            <div class="icons-header">
+                                <!-- Ícones header -->
+                                <a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
                     <!-- MENU -->
                     <div id="myLinks">
                         <ul class="menu-ul">
                             <li class="dropdown">
                                 <a href="javascript:void(0)" class="dropbtn">Serviços</a>
                                 <div class="dropdown-content">
-                                    <a href="#">Lavagem Simples</a>
-                                    <a href="#">Lavagem Detalhada</a>
-                                    <a href="#">Lavagem Detalhada do Motor</a>
-                                    <a href="#">Polimento de Farol</a>
-                                    <a href="#">Vitrificação de Farol</a>
-                                    <a href="#">Polimento Parcial</a>
-                                    <a href="#">Polimento Padrão Fino Trato</a>
-                                    <a href="#">Higienização Interna</a>
-                                    <a href="#">Vitrificação de Plásticos, bancos de couro e lataria</a>
-                                    <a href="#">Oxi Sanitização</a>
-                                    <a href="#">Cristalização de vidros</a>
+                                    <a href="lavagemSimples.html">Lavagem Simples</a>
+                                    <a href="lavagemDetalhada.html">Lavagem Detalhada</a>
+                                    <a href="lavagemDetalhada.html">Lavagem Detalhada do Motor</a>
+                                    <a href="polimentoFarol.html">Polimento de Farol</a>
+                                    <a href="vitrificacaofarol.html">Vitrificação de Farol</a>
+                                    <a href="polimentoParcial.html">Polimento Parcial</a>
+                                    <a href="polimentoFinotrato.html">Polimento Padrão Fino Trato</a>
+                                    <a href="higienizacaointerna.html">Higienização Interna</a>
+                                    <a href="vitrificacao.html">Vitrificação de Plásticos, bancos de couro e lataria</a>
+                                    <a href="oxiSanitizacao.html">Oxi Sanitização</a>
+                                    <a href="cristalizacaoVidro.html">Cristalização de vidros</a>
                                 </div>
                             <li class="dropdown">
                                 <a href="javascript:void(0)" class="dropbtn">Empresa</a>
@@ -71,7 +73,6 @@
                                 </a> -->
                     </div>
                 </div>
-
             </div>
         </header>
 
@@ -91,108 +92,212 @@
                         </p>
                     </div>
                 </div>
+                <div class="video-empresa">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/K9uIhPLw10w"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </section>
 
         <!-- SERVIÇOS -->
         <section class="service">
             <div class="max-width clearfix">
-                <div class="service-title">
-                    <h1>SERVIÇOS</h1>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Lavagem Simples</a></div>
+                <div class="service-container">
+                    <div class="service-title">
+                        <h1>SERVIÇOS</h1>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Lavagem Simples</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Lavagem Detalhada</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Lavagem Detalhada de Motor</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Polimento de Farol</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Vitrificação de Farol</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Polimento Parcial</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Polimento Padrão Fino Trato</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Vitrificação de Plásticos, bancos
+                                            de
+                                            couro e lataria</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <div class="col-1_2">
+                            <div class="container">
+                                <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                <div class="overlay">
+                                    <div class="text"><a href="https://www.google.com">Higienização Interna
+                                        </a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Lavagem Detalhada</a></div>
+        </section>
+
+        <section id="gallery-section">
+            <div class="max-width clearfix">
+                <div class="gallery-content">
+                    <div class="gallery-title">
+                        <h1>Galeria</h1>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class=gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-content">
+                            <div class="col-1_2">
+                                <div class="gallery-container">
+                                    <img class="img-gallery" src="img/GM-tracker_2021.jpg" width="200px" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Lavagem Detalhada de Motor</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Polimento de Farol</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Vitrificação de Farol</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Polimento Parcial</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Polimento Padrão Fino Trato</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Vitrificação de Plásticos, bancos de
-                                        couro e lataria</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service-content">
-                    <div class="col-1_2">
-                        <div class="container">
-                            <img class="img-service" src="img/GM-tracker_2021.jpg" width="200px" alt="">
-                            <div class="overlay">
-                                <div class="text"><a href="https://www.google.com">Higienização Interna
-                                        <!--  -->
-                                    </a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </section>
     </main>
@@ -241,6 +346,14 @@
                 </div>
             </div>
         </div>
+
+        <!-- Seção Whats -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/5511996594913?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:15px;left:20px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+   z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+
         <div class="copyright">
             <div class="copyright-content">
                 <p>Copyright © 2021 Fino Trato Estética Automotiva | Powered by Hayashi Automação</a></p>
