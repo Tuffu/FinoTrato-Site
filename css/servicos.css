@@ -7,13 +7,23 @@ h1{
     text-align: center;
 }
 
-.img-lavagemsimples{
+#section-article{
+    margin-bottom: 50px;
+}
+
+.content-servico{
+    padding-top: 50px;
+}
+
+.img-servico{
     width: 40%;
     margin-left: 80px;
     float: left;
+    border-radius: 25px;
+    padding-top: 50px;
 }
 
-.texto-lavagem{
+.texto-servico{
     text-align: justify;
     margin-left: 590px
 }

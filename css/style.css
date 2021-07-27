@@ -34,6 +34,10 @@ h1 {
 
 /*Logo */
 
+.empresa{
+    margin-top: 120px;
+}
+
 header {
     background: rgb(0, 0, 0);
 }
@@ -171,7 +175,8 @@ li.dropdown {
 }
 
 .img-service {
-    box-shadow: 10px 10px rgba(255, 255, 255, 0.986)
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.986);
+    border-radius: 25px;
 }
 
 .container {
@@ -189,6 +194,7 @@ li.dropdown {
     opacity         : 0;
     transition      : .5s;
     background-color: yellow;
+    border-radius: 25px;
 }
 
 .container:hover .overlay {
@@ -233,11 +239,40 @@ li.dropdown {
 
 .img-gallery {
     width: 90%;
+    border-radius: 25%;
 }
+
+/* CLIENTES */
+
+.mySlides{
+    display: none;
+}
+
+#client-section{
+    color: white;
+    margin: 50px 0 50px;
+}
+
+.client-title{
+    width: 50%;
+    text-align: center;
+    border: 1px solid yellow;
+    /* border-radius: 25px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0px 0px 50px rgb(105, 104, 104) ;
+}
+
+.client-container h1{
+    text-align: center;
+}
+
 
 /* FOOTER */
 .main-footer {
-    background-color: rgb(209, 209, 209);
+    background-color: black;
+    color:white;
     margin          : 10px 0 0 0;
 }
 
@@ -262,12 +297,12 @@ li.dropdown {
 }
 
 .icons-footer .fa {
-    color    : black;
+    color    : white;
     font-size: 25px;
 }
 
 .icons-footer-social .fa {
-    color         : black;
+    color         : white;
     font-size     : 25px;
     letter-spacing: 15px;
     padding       : 25px 0 0 0;
@@ -278,4 +313,14 @@ li.dropdown {
     padding         : 10px 0 10px 0;
     color           : black;
     text-align      : center;
+}
+
+.copyright-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright-content a:hover{
+    color: red;
+    transition: 0.5s;
 }
