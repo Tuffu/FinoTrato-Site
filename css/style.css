@@ -1,9 +1,9 @@
 html,
 body {
-    font-family     : 'open Sans', sans-serif, 'Times New Roman', Times, serif;
-    margin          : 0;
-    padding         : 0;
-    background-image: url(/img/black-background.jpg);
+    font-family: 'open Sans', sans-serif, 'Times New Roman', Times, serif;
+    margin     : 0;
+    padding    : 0;
+    background : black;
 }
 
 h1 {
@@ -11,17 +11,17 @@ h1 {
     font-size  : 35px;
 }
 
-#top-header{
+#top-header {
     background: black;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+    position  : fixed;
+    left      : 0;
+    top       : 0;
+    width     : 100%;
+    z-index   : 1;
 }
 
 .max-width {
-    width       : 1200px;
+    width       : 1260px;
     margin-left : auto;
     margin-right: auto;
 }
@@ -33,10 +33,6 @@ h1 {
 }
 
 /*Logo */
-
-.empresa{
-    margin-top: 120px;
-}
 
 header {
     background: rgb(0, 0, 0);
@@ -59,7 +55,26 @@ header {
     padding  : 20px 10px 15px 10px;
 }
 
+.fa-bars {
+    color: red;
+    float: right;
+}
+
 /* MENU */
+
+.mobile-container {
+    margin-top: 98px;
+}
+
+#myLinks {
+    background: black;
+    position  : fixed;
+    left      : 0;
+    top       : 98px;
+    width     : 100%;
+    z-index   : 1;
+}
+
 #myLinks a {
     font-size      : 15px;
     text-decoration: none;
@@ -129,8 +144,8 @@ li.dropdown {
 /* EMPRESA */
 
 .empresa {
-    padding         : 10px 0 20px 0;
-    background-color: rgba(0, 0, 0, 0.445);
+    padding         : 35px 0 20px 0;
+    background-color: rgb(24, 24, 24);
 }
 
 .title-empresa {
@@ -139,7 +154,7 @@ li.dropdown {
 
 .title-empresa h1 {
     text-align : center;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .empresa-content {
@@ -155,6 +170,11 @@ li.dropdown {
 
 .service {
     padding: 10px 0 20px 0;
+
+}
+
+.service-container {
+    margin-left: 50px;
 }
 
 .container {
@@ -175,26 +195,26 @@ li.dropdown {
 }
 
 .img-service {
-    box-shadow: 5px 5px rgba(255, 255, 255, 0.986);
+    box-shadow   : 5px 5px rgba(255, 255, 255, 0.322);
     border-radius: 25px;
 }
 
 .container {
-    width   : 100%;
+    width: 50%;
 }
 
 .overlay {
     position        : absolute;
     top             : 0;
     bottom          : 0;
-    left            : 80px;
+    left            : 0;
     right           : 0;
     height          : 100%;
-    width           : 56%;
+    width           : 166%;
     opacity         : 0;
     transition      : .5s;
-    background-color: yellow;
-    border-radius: 25px;
+    background-color: rgba(255, 255, 0, 0.801);
+    border-radius   : 25px;
 }
 
 .container:hover .overlay {
@@ -203,7 +223,7 @@ li.dropdown {
 
 .text {
     color        : black;
-    font-size    : 13px;
+    font-size    : 17px;
     position     : absolute;
     top          : 50%;
     left         : 50%;
@@ -222,7 +242,7 @@ li.dropdown {
     color           : white;
     padding-top     : 5px;
     padding-bottom  : 15px;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgb(24, 24, 24);
 }
 
 .gallery-title {
@@ -238,41 +258,41 @@ li.dropdown {
 }
 
 .img-gallery {
-    width: 90%;
-    border-radius: 25%;
+    width        : 90%;
+    border-radius: 25px;
 }
 
 /* CLIENTES */
 
-.mySlides{
+.mySlides {
     display: none;
 }
 
-#client-section{
-    color: white;
+#client-section {
+    color : white;
     margin: 50px 0 50px;
 }
 
-.client-title{
-    width: 50%;
-    text-align: center;
-    border: 1px solid yellow;
+.client-title {
+    width           : 50%;
+    text-align      : center;
+    border          : 1px solid yellow;
     /* border-radius: 25px; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    box-shadow: 0px 0px 50px rgb(105, 104, 104) ;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-top      : 50px;
+    box-shadow      : 0px 0px 50px rgb(105, 104, 104);
 }
 
-.client-container h1{
+.client-container h1 {
     text-align: center;
 }
 
 
 /* FOOTER */
 .main-footer {
-    background-color: black;
-    color:white;
+    background-color: rgb(24, 24, 24);
+    color           : white;
     margin          : 10px 0 0 0;
 }
 
@@ -291,8 +311,8 @@ li.dropdown {
 } */
 
 .icons-footer {
-    float  : left;
-    padding: 30px 0 0 30px;
+    float     : left;
+    padding   : 30px 0 0 30px;
     /* display: inline-flex; */
 }
 
@@ -315,12 +335,71 @@ li.dropdown {
     text-align      : center;
 }
 
-.copyright-content a{
+.copyright-content a {
     text-decoration: none;
-    color: black;
+    color          : black;
 }
 
-.copyright-content a:hover{
-    color: red;
+.copyright-content a:hover {
+    color     : red;
     transition: 0.5s;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 414px) {
+
+    .mobile-container {
+        max-width    : 414px;
+        margin       : auto;
+        color        : white;
+        border-radius: 10px;
+    }
+
+    .menu-ul {
+        width: 400px;
+    }
+
+    .top-nav {
+        overflow        : hidden;
+        background-color: black;
+        position        : relative;
+    }
+
+    .top-img .icons {
+        display: none;
+    }
+
+    #top-header {
+        background: black;
+        position  : fixed;
+        left      : 0;
+        top       : 0;
+        width     : 100%;
+        z-index   : 1;
+    }
+
+    .empresa {
+        width     : 400px;
+        margin-top: 150px;
+
+    }
+
+    .title-empresa {
+        margin-top: 15px;
+        width     : 400px;
+        text-align: center;
+    }
+
+    .title-empresa p{
+        text-align: justify;
+    }
+
+    .video-empresa{
+        text-align:initial;
+    }
+
+    .video-tam{
+        width: 200px;
+    }
 }
