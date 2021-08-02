@@ -1,8 +1,29 @@
-#videos-section{
+#videos-section {
     margin-top: 190px;
 }
 
-.video-title{
-    color: white;
+.video-title {
+    color     : white;
     text-align: center;
+}
+
+
+@media screen and (max-width: 414px) {
+
+    .video-tam {
+        width         : 305px;
+        padding-bottom: 20px;
+    }
+
+    .video-content {
+        display: flex;
+    }
+
+    .col-1_2 {
+        width: 30%;
+        margin: 1% 1% 5% 10%;
+        float: left;
+        text-align: center;
+    }
+
 }

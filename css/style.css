@@ -359,9 +359,9 @@ li.dropdown {
     #top-header {
         background: black;
         position  : fixed;
-        left      : 5px;
+        left      : 0px;
         top       : 0px;
-        width     : 86%;
+        width     : 100%;
         z-index   : 1;
     }
 
@@ -414,11 +414,11 @@ li.dropdown {
         letter-spacing : 2px;
         color          : black;
     }
-    
+
     .menu-ul {
         background-color: white;
         list-style-type : none;
-        margin          : 0px;
+        margin          : -15px 0 0 0;
         padding         : 0px;
         overflow        : hidden;
     }
@@ -439,7 +439,7 @@ li.dropdown {
     }
 
     .empresa-content {
-        padding       : 1px 20px 0px 20px;
+        padding       : 1px 65px 0px 30px;
         letter-spacing: 0.5;
     }
 
@@ -469,6 +469,20 @@ li.dropdown {
 
     .service-container {
         margin-left: 0px;
+    }
+
+    .overlay {
+        position        : absolute;
+        top             : 0;
+        bottom          : 0;
+        left            : 0;
+        right           : 0;
+        height          : 100%;
+        width           : 184%;
+        opacity         : 0;
+        transition      : .5s;
+        background-color: rgba(255, 255, 0, 0.801);
+        border-radius   : 25px;
     }
 
     .img-service {
