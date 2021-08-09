@@ -29,6 +29,10 @@ h1 {
     margin-left: 590px
 }
 
+.fa-check{
+    color: yellow;
+}
+
 @media screen and (max-width: 414px) {
 
     h1 {

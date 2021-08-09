@@ -265,7 +265,7 @@ li.dropdown {
 /* CLIENTES */
 
 .mySlides {
-    display: none;
+    display:none;
 }
 
 #client-section {
@@ -418,7 +418,7 @@ li.dropdown {
     .menu-ul {
         background-color: white;
         list-style-type : none;
-        margin          : -15px 0 0 0;
+        margin          : -30px 0 0 0;
         padding         : 0px;
         overflow        : hidden;
     }
