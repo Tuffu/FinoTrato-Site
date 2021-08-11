@@ -248,17 +248,19 @@
                         <div class="gallery-content ">
                             <div class="col-1_2">
                                 <div class="gallery-container">
-                                    <img class="img-gallery" src="img/img-galeria/20210529_111546.jpg" width="200px"
-                                        alt="">
+                                    <a href="https://www.youtube.com/watch?v=lfItsjvnSpM" target="_blank"><img
+                                            class="img-gallery" src="img/img-galeria/20210529_111546.jpg" width="200px"
+                                            alt=""></a>
                                 </div>
                             </div>
                         </div>
                         <div class="gallery-content ">
                             <div class="col-1_2">
                                 <div class="gallery-container">
-                                    <img class="img-gallery"
-                                        src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.33.12.jpeg" width="200px"
-                                        alt="">
+                                    <a href="https://www.youtube.com/watch?v=sGgirbBZLDg&t=2s" target="_blank"><img
+                                            class="img-gallery"
+                                            src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.33.12.jpeg"
+                                            width="200px" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -273,27 +275,31 @@
                         <div class="gallery-content ">
                             <div class="col-1_2">
                                 <div class="gallery-container">
-                                    <img class="img-gallery"
-                                        src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.34.32 (1).jpeg"
-                                        width="200px" alt="">
+                                    <a href="https://www.youtube.com/watch?v=X46qfm0yEn8" target="_blank"><img
+                                            class="img-gallery"
+                                            src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.34.32 (1).jpeg"
+                                            width="200px" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="gallery-content ">
                             <div class="col-1_2">
                                 <div class="gallery-container">
-                                    <img class="img-gallery"
-                                        src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.35.21.jpeg" width="200px"
-                                        alt="">
+                                    <a href="https://www.youtube.com/watch?v=PZ-0c5hGupg"><img class="img-gallery"
+                                            src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.35.21.jpeg"
+                                            width="200px" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="gallery-content ">
                             <div class="col-1_2">
                                 <div class="gallery-container">
-                                    <img class="img-gallery"
-                                        src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.35.22 (1).jpeg"
-                                        width="200px" alt="">
+                                    <a href="https://www.youtube.com/watch?v=PZ-0c5hGupg"><img class="img-gallery"
+                                            src="img/img-galeria/WhatsApp Image 2021-07-26 at 10.35.22 (1).jpeg"
+                                            width="200px" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -447,6 +453,27 @@
                                 <h3>Fabio Fosco</h3>
                             </div>
                         </div>
+                        <div class="client-title mySlides">
+                            <div class="client-content">
+                                <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
+                                    Serviço excelente. Meu carro ficou novo!!! Super recomendo. Atendimento perfeito e
+                                    serviços tbm!!!
+                                </p>
+                                <h3>FERNANDA Silva</h3>
+                            </div>
+                        </div>
+                        <div class="client-title mySlides">
+                            <div class="client-content">
+                                <p><i class="fa fa-quote-right w3-xxlarge"></i><br>
+                                    Espetacular!
+                                    Serviço de primeira.
+                                    Meu carro nunca ficou tão limpo!
+                                    Divulguei em todos os grupos de amigos e espero que eles utilizem os serviços
+                                    prestados pela empresa!
+                                </p>
+                                <h3>Fabio Luiz Teixeira</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -513,6 +540,22 @@
         </div>
     </footer>
 
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+    </script>
 
 </body>
 
