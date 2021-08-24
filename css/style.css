@@ -351,10 +351,11 @@ li.dropdown {
 
 
     .mobile-container {
-        width : 414px;
+        width : 1024px;
         margin: auto;
         color : white;
     }
+    
 
     #top-header {
         background: black;
@@ -372,7 +373,7 @@ li.dropdown {
 
     .img-logo {
         padding  : 0 0 0 0;
-        max-width: 26%;
+        max-width: 25%;
     }
 
     .clearfix::after {
@@ -412,7 +413,7 @@ li.dropdown {
     .menu-ul {
         background-color: white;
         list-style-type : none;
-        margin          : -16px 0 0 0;
+        margin          : 0 0 0 0;
         padding         : 0px;
         overflow        : hidden;
     }
@@ -472,7 +473,7 @@ li.dropdown {
         left            : 0;
         right           : 0;
         height          : 100%;
-        width           : 184%;
+        width           : 149%;
         opacity         : 0;
         transition      : .5s;
         background-color: rgba(255, 255, 0, 0.801);
@@ -482,8 +483,8 @@ li.dropdown {
     .img-service {
         box-shadow   : 5px 5px rgba(255, 255, 255, 0.322);
         border-radius: 25px;
-        width        : 115px;
-        height       : 100px;
+        width        : 280px;
+        height       : 150px;
     }
 
     .col-1_2 {
@@ -533,6 +534,10 @@ li.dropdown {
         color : white;
     }
 
+    .max-width {
+        width: 414px;
+    };
+
     #top-header {
         background: black;
         position  : fixed;
@@ -549,7 +554,7 @@ li.dropdown {
 
     .img-logo {
         padding  : 0px 0 0px 0;
-        max-width: 20%;
+        max-width: 60%;
     }
 
     .clearfix::after {
@@ -610,7 +615,7 @@ li.dropdown {
     }
 
     .empresa-content {
-        padding       : 1px 25px 0px 27px;
+        padding       : 1px 81px 0px 27px;
         letter-spacing: 0.5;
     }
 
@@ -622,6 +627,7 @@ li.dropdown {
     .title-empresa h1 {
         text-align : center;
         padding-top: 15px;
+        margin-right: 50;
     }
 
     .fa-bars {
