@@ -300,6 +300,10 @@ li.dropdown {
     text-align: center;
 }
 
+.body-footer {
+    display: inline-flex;
+}
+
 .service-img {
     display : block;
     position: relative;
