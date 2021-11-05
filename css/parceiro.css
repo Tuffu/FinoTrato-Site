@@ -1,0 +1,28 @@
+.title-parceiro {
+    color     : white;
+
+}
+
+@media screen and (max-width: 414px) {
+    .title-parceiro {
+        color     : white;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .parceiro-img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .title-parceiro {
+        color     : white;
+        margin-top: 180px;
+        text-align: center;
+    }
+
+    .parceiro-img {
+        width: 50%;
+    }
+}
